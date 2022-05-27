@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   align-items: center;
+   background-color: blue; 
+   width: 400px;
+margin: auto;
+color: aliceblue;
+}
+
+h1{
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1.4rem;
+    margin: 1rem;
+   
+    
+}
+input{
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    margin: 1rem;
+
+}
+#btn-check{
+    border: 1px solid black;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin:1rem;
+    cursor: pointer;
+}
+
+#output{
+    border: 1px solid black;
+    background-color: beige;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin:1rem;
+    color: black;
+    
+}
+footer{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin: 2rem 1rem;
+    font-size: 18px;
+   color: black;
+}
+
+.list-non-bullet{
+    list-style: none;
+    text-align: center;
+    display: inline;
+}
